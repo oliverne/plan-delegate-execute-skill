@@ -5,12 +5,12 @@ description: Plan, delegate, and execute non-trivial work through lightweight Ma
 
 # Plan, Delegate & Execute
 
-For non-trivial work, maintain persistent Markdown state:
+For non-trivial work, maintain persistent Markdown state under `docs/`:
 
-- `plan.md` — overall intent, scope, constraints, and phases; treat it as the source of truth.
-- `phase-N.md` — the current executable slice and its acceptance conditions.
-- `progress.md` — completed work, decisions, blockers, and the next step.
-- `handoff.md` — resumable context only when work must continue in another session or agent.
+- `docs/plan.md` — overall intent, scope, constraints, and phases; treat it as the source of truth.
+- `docs/phase-{NN}-{short-title}.md` — the current executable slice and its acceptance conditions, e.g. `phase-01-api-contract.md`.
+- `docs/progress.md` — completed work, decisions, blockers, and the next step.
+- `docs/handoff.md` — resumable context only when work must continue in another session or agent.
 
 Plan before implementation. Keep phases small and verifiable.
 
