@@ -1,6 +1,6 @@
 ---
 name: plan-delegate-execute
-description: Use for non-trivial implementation work that benefits from persistent Markdown planning, phased execution, delegation, verification, or handoff across sessions or agents.
+description: Plan, delegate, and execute non-trivial work through lightweight Markdown specs.
 ---
 
 # Plan, Delegate & Execute
